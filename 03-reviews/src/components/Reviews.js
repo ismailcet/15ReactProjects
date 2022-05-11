@@ -35,7 +35,7 @@ const Reviews = () => {
   return (
     <article className="review">
       <div className="img-container">
-        <img src={image} alt={name} />
+        <img src={image} alt={name} className="personImg" />
       </div>
       <h4 className="author">{name}</h4>
       <p className="job">{job}</p>
